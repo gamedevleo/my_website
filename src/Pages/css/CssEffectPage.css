@@ -1,0 +1,29 @@
+.cssEffectPage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+div.container:nth-of-type(4n+1) .box::before,
+div.container:nth-of-type(4n+1) .box::after
+{
+  background: linear-gradient(235deg,#89ff00,#010615,#00bcd4);
+}
+
+div.container:nth-of-type(4n+2) .box::before,
+div.container:nth-of-type(4n+2) .box::after
+{
+  background: linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+
+div.container:nth-of-type(4n+3) .box::before,
+div.container:nth-of-type(4n+3) .box::after
+{
+  background: linear-gradient(235deg,#772aff,#010615,#ff29f0);
+}
+div.container:nth-of-type(4n) .box::before,
+div.container:nth-of-type(4n) .box::after
+{
+  background: linear-gradient(235deg,#407e36,#010615,#ffe577);
+}

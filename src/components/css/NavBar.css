@@ -1,0 +1,38 @@
+.navBar_menu{
+  display: flex;
+  flex-direction: row;
+  background-color:#add;
+  height:10vh;
+  width: 100%;
+  min-width: 0;
+  justify-content:flex-start;
+  align-items: center;
+  text-overflow: ellipsis;
+  font-size: 3.8vw;
+}
+.navbar_li{
+  list-style: none;
+  padding:1.5vw;
+  margin: 1vw;
+}
+.navbar_li a{
+  font-family: 'Fredoka One', cursive;
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#262626;
+  position: relative;
+}
+.navbar_li a:before{
+  content:"";
+  width:0;
+  height:5px;
+  background-color: rgba(200,100,100,1);
+  position: absolute;
+  top:100%;
+  left:0;
+  transition: 0.5s;
+}
+.navbar_li:hover a:before{
+  width:50%;
+  transform: translateX(100%);
+}

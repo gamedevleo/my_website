@@ -1,0 +1,111 @@
+.homePage{
+  position:relative;
+  background-image: linear-gradient(-45deg,red,orange,yellow,green,blue,indigo,violet);
+  background-size: 400% 400%;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  animation:gradient 20s linear infinite;
+}
+
+.homePage_container{
+  position: relative;
+  top:10%;
+  margin:0 auto;
+  width: 80%;
+  height:70%;
+  background-color: #ddd;
+  background-image: url(../../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.homePage_header{
+  margin:1vw auto;
+  font-size: 2vw;
+}
+.homePage_header h1{
+  text-align: center;
+  padding: 0.5vw;
+}
+
+.homePage_images{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0.5vw;
+}
+.homePage_header img{
+  width: 4vw;
+}
+
+.homePage_content{
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+@media only screen and (max-width: 800px) {
+  .homePage_content {
+    flex-direction: column;
+  }
+  .homePage_content div:nth-child(1){
+    margin-bottom: 5vw;
+  }
+  .homePage_header{
+    font-size: 3vw;
+  }
+  .homePage{
+    height: 94.5vh;
+  }
+}
+
+
+.homePage_content div:nth-child(1){
+  flex:7;
+  padding: 2vw;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.homePage_content div:nth-child(1)::-webkit-scrollbar {
+  display: none;
+}
+
+
+.homePage_contact{
+  flex:3;
+  padding: 2vw;
+}
+
+.homePage_contact li{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(199, 210, 156);
+}
+
+
+
+@keyframes gradient {
+  0%{
+    background-position: 0% 0%;
+  }
+  25%
+  {
+    background-position:50% 50%;
+  }
+  50%{
+    background-position: 100% 100%;
+  }
+  75%{
+    background-position: 50% 50%;
+  }
+  100%{
+    background-position: 0% 0%;
+  }
+}

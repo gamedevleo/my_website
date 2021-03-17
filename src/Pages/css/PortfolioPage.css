@@ -1,0 +1,7 @@
+.portfolioPage{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 4vw auto;
+}
