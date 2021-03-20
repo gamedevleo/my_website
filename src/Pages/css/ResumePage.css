@@ -27,7 +27,7 @@
   background: #333;
   width: 90%;
   margin:1vw auto;
-  padding:2vw;
+  padding:1vw;
   border-radius: 0.5vw;
   display: flex;
   flex-direction: column;
@@ -50,7 +50,7 @@
 }
 
 .resumePage_aboutme{
-  flex:1 1 20%;
+  flex:1 1 10%;
   width: 90%;
   padding: 1vw;
   border-top: 2px solid #777;

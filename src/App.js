@@ -1,5 +1,5 @@
 import './App.css';
-import {NavBar,Clock} from './components/index';
+import {NavBar,Clock,Tooltip} from './components/index';
 import {HomePage,PortfolioPage,CssEffectPage,ResumePage} from './Pages/index';
 import {
   BrowserRouter as Router,
@@ -29,6 +29,9 @@ function App() {
         </Route>
         <Route path="/clock">
           <Clock />
+        </Route>
+        <Route path="/tooltip">
+          <Tooltip />
         </Route>
       </Switch>
     </Router>

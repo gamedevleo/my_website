@@ -6,3 +6,4 @@ export {CircleBar} from './CircleBar';
 export {SkillsBar} from './SkillsBar';
 export {SkillBar} from './SkillBar';
 export {Card} from './Card';
+export {Tooltip} from './Tooltip';
