@@ -1,0 +1,31 @@
+.resumePage .card{
+  background: #35343d;
+  margin: 1vw;
+  padding: 1vw;
+  border-radius: 1vw;
+  height: 250px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.resumePage .card h1{
+  color: #fff;
+  font-size: 1.8vw;
+  font-weight: 800;
+  letter-spacing: 0.1vw;
+  text-transform: uppercase;
+}
+.resumePage .card p{
+  color:#917575;
+  letter-spacing: 0.11vw;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.resumePage .card p::-webkit-scrollbar{
+  display: none;
+}

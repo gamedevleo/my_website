@@ -1,0 +1,136 @@
+.resumePage{
+  background: #111;
+  display: flex;
+  height: 100vh;
+}
+
+.resumePage .resumePage_left{
+  flex:1 1 30%;
+  background:#222;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.resumePage .resumePage_right{
+  flex:1 1 70%;
+  background: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.resumePage_left .resumePage_me{
+  flex:1 1 40%;
+  background: #333;
+  width: 90%;
+  margin:1vw auto;
+  padding:2vw;
+  border-radius: 0.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.resumePage_me h2{
+  color:#fff;
+  font-weight: bold;
+  font-size: 2vw;
+  margin: 1vw auto;
+  letter-spacing: 0.1vw;
+}
+.resumePage_me p{
+  color:#ccc;
+  font-weight:bold;
+  font-size: 1vw;
+  letter-spacing: 0.1vw;
+}
+
+.resumePage_aboutme{
+  flex:1 1 20%;
+  width: 90%;
+  padding: 1vw;
+  border-top: 2px solid #777;
+}
+.resumePage_aboutme li{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.resumePage_aboutme li span:nth-child(1){
+  color:#fff;
+  font-size: 1.5vw;
+}
+.resumePage_aboutme li span:nth-child(2){
+  color:#777;
+  font-size: 1.5vw;
+}
+
+.resumePage_skills{
+  flex:1 1 40%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 2vw auto;
+}
+
+.resumePage_right .resumePage_header{
+  flex:1 1 20%;
+  background: #3c3434;
+  width: 100%;
+  position: relative;
+}
+
+.resumePage_header .imgBox {
+  width: 100%;
+  height: 20vw;
+  background: #3c3434;
+}
+.resumePage_headerText{
+  position: absolute;
+  top:10%;
+  left:10%;
+  width: 100%;
+}
+
+.resumePage_right .resumePage_header .imgBox img{
+  width: 100%;
+  height: 100%;
+}
+
+.resumePage_header h1,p{
+  color:#fff;
+  font-weight: 700;
+  margin: 1vw;
+  padding:1vw;
+}
+
+.resumePage_header h1{
+  font-size: 3vw;
+  letter-spacing: 0.1vw;
+}
+
+.resumePage_header p{
+  font-size: 1.8vw;
+}
+.resumePage_header p span{
+  font-size: 1.8vw;
+  color:#db6f6f;
+}
+
+.resumePage_right .resumePage_content{
+  flex:1 1 70%;
+  padding: 2vw;
+  margin: 2vw;
+  background: #444;
+  border-radius: 1vw;
+}
+
+.resumePage_content .resumePage_services{
+  display: flex;
+  flex-wrap: wrap;
+}

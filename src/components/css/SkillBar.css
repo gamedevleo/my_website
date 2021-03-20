@@ -1,0 +1,44 @@
+.skillbar{
+  background: #333;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 20px 0;
+  padding: 20px;
+}
+.skillbar p{
+  color:#fff;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  padding: 0;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.skillbar p:nth-child(2){
+  position:relative;
+  float:right;
+  top:-25px;
+}
+
+.skillbar .skill_bg{
+  background: #353b48;
+  box-sizing:border-box;
+  border:1px solid var(--skillbarColor);
+  border-radius: 2px;
+  box-shadow: 0 0 10px var(--skillbarColor);
+}
+
+.skillbar .skill_level{
+  background: var(--skillbarColor);
+  width: var(--skillpercentage);
+  height: 2px;
+  animation:anim 1s;
+}
+@keyframes anim {
+  from {
+    width:0%;
+  }
+  to{
+    width:var(--skillpercentage);
+  }
+}

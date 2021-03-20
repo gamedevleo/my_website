@@ -1,6 +1,6 @@
 import './App.css';
 import {NavBar} from './components/index';
-import {HomePage,PortfolioPage,CssEffectPage} from './Pages/index';
+import {HomePage,PortfolioPage,CssEffectPage,ResumePage} from './Pages/index';
 import {
   BrowserRouter as Router,
   Switch,
@@ -20,6 +20,9 @@ function App() {
         </Route>
         <Route path="/portfolio">
           <PortfolioPage />
+        </Route>
+        <Route path="/resume">
+          <ResumePage />
         </Route>
         <Route path="/csseffects">
           <CssEffectPage />
