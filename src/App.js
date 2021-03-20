@@ -1,5 +1,5 @@
 import './App.css';
-import {NavBar} from './components/index';
+import {NavBar,Clock} from './components/index';
 import {HomePage,PortfolioPage,CssEffectPage,ResumePage} from './Pages/index';
 import {
   BrowserRouter as Router,
@@ -26,6 +26,9 @@ function App() {
         </Route>
         <Route path="/csseffects">
           <CssEffectPage />
+        </Route>
+        <Route path="/clock">
+          <Clock />
         </Route>
       </Switch>
     </Router>

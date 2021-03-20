@@ -7,7 +7,7 @@ export const CssEffectPage = () => {
 
   return (
     <div className='cssEffectPage'>
-      <ResponsiveCard img={clockImg} title="Clock" description="This is a clock" />
+      <ResponsiveCard img={clockImg} title="Clock" description="This is a clock" to='/clock'/>
     </div>
   )
 }
