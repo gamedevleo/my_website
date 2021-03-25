@@ -1,0 +1,114 @@
+.imgcut{
+  position: relative;
+  margin:20vh 30vw;
+  width: 40vw;
+}
+.imgcut .content{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  top:0;
+  left:0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgcut .content .title{
+  background: rgb(114, 228, 164);
+  border-radius: 1vw;
+  text-align: center;
+  padding: 2vw;
+  font-size: 2vw;
+
+}
+
+.imgcut ul{
+  width: 40vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.imgcut ul li{
+  flex:1;
+  height:60vh;
+  list-style: none;
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s transform ease-in-out;
+}
+.imgcut ul li::after{
+  content: "";
+  display: block;
+  width:40vw;
+  height:60vh;
+  background-image: url(https://autonxt.net/wp-content/uploads/2016/08/autocontentexp.comwp-contentuploads201504GreatAmerican5-77e2b400d48679dadee95914abc73c0b0642d43b.jpg);
+  background-size: cover;
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+.imgcut ul li:nth-child(2)::after{
+  left: -4vw;
+}
+.imgcut ul li:nth-child(3)::after{
+  left: -8vw;
+}
+.imgcut ul li:nth-child(4)::after{
+  left: -12vw;
+}
+.imgcut ul li:nth-child(5)::after{
+  left: -16vw;
+}
+.imgcut ul li:nth-child(6)::after{
+  left: -20vw;
+}
+.imgcut ul li:nth-child(7)::after{
+  left: -24vw;
+}
+.imgcut ul li:nth-child(8)::after{
+  left: -28vw;
+}
+.imgcut ul li:nth-child(9)::after{
+  left: -32vw;
+}
+.imgcut ul li:nth-child(10)::after{
+  left: -36vw;
+}
+
+.imgcut ul:hover li{
+  transform: translateY(-60vh);
+}
+
+.imgcut ul li:nth-child(2){
+  transition-delay: 0.05s;
+}
+.imgcut ul li:nth-child(3){
+  transition-delay: 0.1s;
+}
+.imgcut ul li:nth-child(4){
+  transition-delay: 0.15s;
+}
+.imgcut ul li:nth-child(5){
+  transition-delay: 0.2s;
+}
+.imgcut ul li:nth-child(6){
+  transition-delay: 0.25s;
+}
+.imgcut ul li:nth-child(7){
+  transition-delay: 0.3s;
+}
+.imgcut ul li:nth-child(8){
+  transition-delay: 0.35s;
+}
+.imgcut ul li:nth-child(9){
+  transition-delay: 0.4s;
+}
+.imgcut ul li:nth-child(10){
+  transition-delay: 0.45s;
+}

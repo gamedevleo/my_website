@@ -7,3 +7,4 @@ export {SkillsBar} from './SkillsBar';
 export {SkillBar} from './SkillBar';
 export {Card} from './Card';
 export {Tooltip} from './Tooltip';
+export {ImgCut} from './ImgCut';
