@@ -1,5 +1,5 @@
 import './App.css';
-import {NavBar,Clock,Tooltip,ImgCut} from './components/index';
+import {NavBar,Clock,Tooltip,ImgCut,CreditCard} from './components/index';
 import {HomePage,PortfolioPage,CssEffectPage,ResumePage} from './Pages/index';
 import {
   BrowserRouter as Router,
@@ -35,6 +35,9 @@ function App() {
         </Route>
         <Route path="/imgcut">
           <ImgCut />
+        </Route>
+        <Route path="/creditcard">
+          <CreditCard />
         </Route>
       </Switch>
     </Router>
